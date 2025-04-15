@@ -24,7 +24,7 @@ class _DoctorAppointmentPageState extends State<DoctorAppointmentPage> {
   ];
 
   Future<void> _pickDateTime() async {
-    // Pick Date
+    
     final pickedDate = await showDatePicker(
       context: context,
       initialDate: _selectedDateTime ?? DateTime.now(),
