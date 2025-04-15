@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:intl/intl.dart';  // Import for DateFormat
+import 'package:intl/intl.dart';  
 
 class DoctorAppointmentPage extends StatefulWidget {
   @override
@@ -8,7 +8,8 @@ class DoctorAppointmentPage extends StatefulWidget {
 
 class _DoctorAppointmentPageState extends State<DoctorAppointmentPage> {
   DateTime? _selectedDateTime;
-  String? _selectedDoctor;
+  String? _selectedDoctor; 
+
 
   final List<Map<String, String>> doctors = [
     {'name': 'Dr. Shahriar', 'specialization': 'AI Diagnostics Specialist'},
